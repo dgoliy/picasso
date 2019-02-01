@@ -1,3 +1,9 @@
+Fork notes
+=======
+This fork is introduces a simple fix made in https://github.com/square/picasso/pull/1280 on top of a stable 2.5.2 release. Check out the branch `1280-MarkableInputSteam-Fix`
+
+Run `mvn clean verify` or `mvn clean compile` to obtain the .jar files and place them in the libs folder of your project. And don't forget to remove an import of original picasso dependency from the gradle file.
+
 Picasso
 =======
 
